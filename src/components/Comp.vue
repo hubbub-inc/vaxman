@@ -33,7 +33,7 @@
     	try {
     		var result = await axios({
     			method: 'POST',
-    			url: 'http://noumenal.herokuapp.com/graphql/',
+    			url: 'https://noumenal.herokuapp.com/graphql/',
     			data: {
     				query: `
     				{
